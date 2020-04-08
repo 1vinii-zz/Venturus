@@ -1,0 +1,473 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C91471C6A36A4A7C1AFF9416 /* Pods_Venturus_iOS_Test.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C95CCF8E537181F18AFACAC /* Pods_Venturus_iOS_Test.framework */; };
+		EB062B65243E0FF00060D008 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB062B64243E0FF00060D008 /* AppDelegate.swift */; };
+		EB062B67243E0FF00060D008 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB062B66243E0FF00060D008 /* SceneDelegate.swift */; };
+		EB062B69243E0FF00060D008 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB062B68243E0FF00060D008 /* ViewController.swift */; };
+		EB062B6C243E0FF00060D008 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB062B6A243E0FF00060D008 /* Main.storyboard */; };
+		EB062B6E243E0FF20060D008 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB062B6D243E0FF20060D008 /* Assets.xcassets */; };
+		EB062B71243E0FF20060D008 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB062B6F243E0FF20060D008 /* LaunchScreen.storyboard */; };
+		EB062B82243E137B0060D008 /* ItemCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB062B80243E137B0060D008 /* ItemCollectionViewCell.swift */; };
+		EB062B83243E137B0060D008 /* ItemCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EB062B81243E137B0060D008 /* ItemCollectionViewCell.xib */; };
+		EB4E86A0243E2D68003AC70B /* Webservice.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4E869F243E2D68003AC70B /* Webservice.swift */; };
+		EB4E86A2243E34C3003AC70B /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4E86A1243E34C3003AC70B /* DataModel.swift */; };
+		EB4E86A5243E6E39003AC70B /* NetworkState.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4E86A4243E6E39003AC70B /* NetworkState.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5C95CCF8E537181F18AFACAC /* Pods_Venturus_iOS_Test.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Venturus_iOS_Test.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		60206CFD5CA8E5A00EC1AAE6 /* Pods-Venturus iOS Test.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Venturus iOS Test.release.xcconfig"; path = "Target Support Files/Pods-Venturus iOS Test/Pods-Venturus iOS Test.release.xcconfig"; sourceTree = "<group>"; };
+		BC136ECB85FA1270FD588E85 /* Pods-Venturus iOS Test.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Venturus iOS Test.debug.xcconfig"; path = "Target Support Files/Pods-Venturus iOS Test/Pods-Venturus iOS Test.debug.xcconfig"; sourceTree = "<group>"; };
+		EB062B61243E0FF00060D008 /* Venturus iOS Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Venturus iOS Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB062B64243E0FF00060D008 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EB062B66243E0FF00060D008 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		EB062B68243E0FF00060D008 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EB062B6B243E0FF00060D008 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EB062B6D243E0FF20060D008 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EB062B70243E0FF20060D008 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EB062B72243E0FF20060D008 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB062B80243E137B0060D008 /* ItemCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemCollectionViewCell.swift; sourceTree = "<group>"; };
+		EB062B81243E137B0060D008 /* ItemCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ItemCollectionViewCell.xib; sourceTree = "<group>"; };
+		EB4E869F243E2D68003AC70B /* Webservice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Webservice.swift; sourceTree = "<group>"; };
+		EB4E86A1243E34C3003AC70B /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
+		EB4E86A4243E6E39003AC70B /* NetworkState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkState.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EB062B5E243E0FF00060D008 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C91471C6A36A4A7C1AFF9416 /* Pods_Venturus_iOS_Test.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6DC93D4722F929A190CEC58B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BC136ECB85FA1270FD588E85 /* Pods-Venturus iOS Test.debug.xcconfig */,
+				60206CFD5CA8E5A00EC1AAE6 /* Pods-Venturus iOS Test.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E1C6AF139B99FD6E9A81DE81 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5C95CCF8E537181F18AFACAC /* Pods_Venturus_iOS_Test.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EB062B58243E0FF00060D008 = {
+			isa = PBXGroup;
+			children = (
+				EB062B63243E0FF00060D008 /* Venturus iOS Test */,
+				EB062B62243E0FF00060D008 /* Products */,
+				6DC93D4722F929A190CEC58B /* Pods */,
+				E1C6AF139B99FD6E9A81DE81 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EB062B62243E0FF00060D008 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EB062B61243E0FF00060D008 /* Venturus iOS Test.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EB062B63243E0FF00060D008 /* Venturus iOS Test */ = {
+			isa = PBXGroup;
+			children = (
+				EB4E86A3243E6E29003AC70B /* Network */,
+				EB062B7F243E12390060D008 /* API */,
+				EB062B7E243E12310060D008 /* Model */,
+				EB062B7D243E12290060D008 /* View */,
+				EB062B7C243E120B0060D008 /* Cell */,
+				EB062B64243E0FF00060D008 /* AppDelegate.swift */,
+				EB062B66243E0FF00060D008 /* SceneDelegate.swift */,
+				EB062B6A243E0FF00060D008 /* Main.storyboard */,
+				EB062B6D243E0FF20060D008 /* Assets.xcassets */,
+				EB062B6F243E0FF20060D008 /* LaunchScreen.storyboard */,
+				EB062B72243E0FF20060D008 /* Info.plist */,
+			);
+			path = "Venturus iOS Test";
+			sourceTree = "<group>";
+		};
+		EB062B7C243E120B0060D008 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				EB062B80243E137B0060D008 /* ItemCollectionViewCell.swift */,
+				EB062B81243E137B0060D008 /* ItemCollectionViewCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		EB062B7D243E12290060D008 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EB062B68243E0FF00060D008 /* ViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		EB062B7E243E12310060D008 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EB4E86A1243E34C3003AC70B /* DataModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EB062B7F243E12390060D008 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				EB4E869F243E2D68003AC70B /* Webservice.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		EB4E86A3243E6E29003AC70B /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				EB4E86A4243E6E39003AC70B /* NetworkState.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EB062B60243E0FF00060D008 /* Venturus iOS Test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB062B75243E0FF20060D008 /* Build configuration list for PBXNativeTarget "Venturus iOS Test" */;
+			buildPhases = (
+				0DF8AF75547668A51D986FE8 /* [CP] Check Pods Manifest.lock */,
+				EB062B5D243E0FF00060D008 /* Sources */,
+				EB062B5E243E0FF00060D008 /* Frameworks */,
+				EB062B5F243E0FF00060D008 /* Resources */,
+				BFF672D0F1EFCBF61701295E /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Venturus iOS Test";
+			productName = "Venturus iOS Test";
+			productReference = EB062B61243E0FF00060D008 /* Venturus iOS Test.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EB062B59243E0FF00060D008 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = "Vinícius Brito";
+				TargetAttributes = {
+					EB062B60243E0FF00060D008 = {
+						CreatedOnToolsVersion = 11.4;
+					};
+				};
+			};
+			buildConfigurationList = EB062B5C243E0FF00060D008 /* Build configuration list for PBXProject "Venturus iOS Test" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EB062B58243E0FF00060D008;
+			productRefGroup = EB062B62243E0FF00060D008 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EB062B60243E0FF00060D008 /* Venturus iOS Test */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EB062B5F243E0FF00060D008 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB062B71243E0FF20060D008 /* LaunchScreen.storyboard in Resources */,
+				EB062B83243E137B0060D008 /* ItemCollectionViewCell.xib in Resources */,
+				EB062B6E243E0FF20060D008 /* Assets.xcassets in Resources */,
+				EB062B6C243E0FF00060D008 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0DF8AF75547668A51D986FE8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Venturus iOS Test-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BFF672D0F1EFCBF61701295E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Venturus iOS Test/Pods-Venturus iOS Test-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Venturus iOS Test/Pods-Venturus iOS Test-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Venturus iOS Test/Pods-Venturus iOS Test-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EB062B5D243E0FF00060D008 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB4E86A5243E6E39003AC70B /* NetworkState.swift in Sources */,
+				EB062B69243E0FF00060D008 /* ViewController.swift in Sources */,
+				EB062B82243E137B0060D008 /* ItemCollectionViewCell.swift in Sources */,
+				EB062B65243E0FF00060D008 /* AppDelegate.swift in Sources */,
+				EB4E86A0243E2D68003AC70B /* Webservice.swift in Sources */,
+				EB062B67243E0FF00060D008 /* SceneDelegate.swift in Sources */,
+				EB4E86A2243E34C3003AC70B /* DataModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EB062B6A243E0FF00060D008 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB062B6B243E0FF00060D008 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EB062B6F243E0FF20060D008 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB062B70243E0FF20060D008 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EB062B73243E0FF20060D008 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EB062B74243E0FF20060D008 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EB062B76243E0FF20060D008 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC136ECB85FA1270FD588E85 /* Pods-Venturus iOS Test.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W3R6499C44;
+				INFOPLIST_FILE = "Venturus iOS Test/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.viniciusbrito.Venturus-iOS-Test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		EB062B77243E0FF20060D008 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 60206CFD5CA8E5A00EC1AAE6 /* Pods-Venturus iOS Test.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W3R6499C44;
+				INFOPLIST_FILE = "Venturus iOS Test/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.viniciusbrito.Venturus-iOS-Test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EB062B5C243E0FF00060D008 /* Build configuration list for PBXProject "Venturus iOS Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB062B73243E0FF20060D008 /* Debug */,
+				EB062B74243E0FF20060D008 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB062B75243E0FF20060D008 /* Build configuration list for PBXNativeTarget "Venturus iOS Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB062B76243E0FF20060D008 /* Debug */,
+				EB062B77243E0FF20060D008 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EB062B59243E0FF00060D008 /* Project object */;
+}
